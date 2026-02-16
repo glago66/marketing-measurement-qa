@@ -1,0 +1,26 @@
+# ---- Logs ----
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- VS Code ----
+.vscode/
